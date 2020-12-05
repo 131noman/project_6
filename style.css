@@ -1,0 +1,460 @@
+html body{
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow-x: hidden !important;
+}
+.top-bar{
+    overflow-x: hidden !important;
+}
+
+/* navbar */
+.nav-item a:hover{
+    color: rgb(34, 22, 189) !important;
+}
+
+
+/* bg image */
+.bg{
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden !important;
+}
+.clean{
+    padding-top: 100px;
+    padding-left: 10px;
+    width: 800px;
+    font-weight: bold;
+}
+.tag{
+    padding-top: 10px;
+    padding-left: 100px;
+    color: white;
+}
+
+/* form */
+.form{
+    width: 50%;
+    background-color: rgb(34,22, 189);
+    padding-top: 10px;
+    margin-left: 150px;
+
+}
+.danger{
+    background-color: red !important;
+    color: white !important;
+}
+.label{
+    padding-left: 60px;
+}
+/* our services */
+
+.block1{
+    position: relative;
+    left: 20px;
+}
+.block2{
+   position: relative;
+    left: 20px;
+}
+.block3{
+    position: relative;
+    left: 20px;
+}
+.block4{
+    position: relative;
+    left: 20px;
+}
+
+/* cards */
+.five{
+    margin-left: 160px;
+}
+.four{
+    margin-left: 120px;
+}
+.third{
+    margin-left: 80px;
+}
+.second{
+    margin-left: 40px;
+}
+
+
+/* responsiveness */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .top-bar{
+        height: 60px;
+    }
+    .label{
+        padding-left: 20px;
+    }
+    .tel{
+        font-size: 14px !important;
+        width: 200px;
+    }
+    .none{
+        display: none;
+    }
+    .mail{
+        font-size: 14px !important;
+        width: 200px;
+        margin-left: 35px;
+    }
+    .logo{
+        width: 80px;
+    }
+    .form{
+        margin-left: 35px;
+        width: 80%;
+    }
+   .clean{
+       font-size: 28px;
+        position: relative;
+       right: 25px;
+       bottom: 30px;
+       width: 400px;
+   }
+   .tag{
+       width: 400px;
+       position: relative;
+       right: 70px;
+       bottom: 30px;
+   }
+    /* our services */
+
+    .block1{
+        position: relative;
+        left: 0px;
+    }
+    .block2{
+        position: relative;
+        left: 0px;
+    }
+    .block3{
+        position: relative;
+        left: 0px;
+    }
+    .block4{
+        position: relative;
+        left: 0px;
+    }
+    .images{
+        width: 320px;
+        height: 150px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .card{
+        width: 18rem !important;
+        height: 25rem !important;
+    }
+    .first{
+        margin-left: 20px;
+    }
+    .second{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .third{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .four{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .five{
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .dry{
+        font-size: 20px;
+    }
+    .power{
+        font-size: 20px;
+    }
+    .icons{
+        margin-left: 50px;
+    }
+    .txt{
+        text-align: center;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    .label{
+        padding-left: 85px;
+    }
+    .form{
+        width: 60%;
+    }
+    .clean{
+        font-size: 26px;
+        position: relative;
+        right: 60px;
+        width: 600px;
+    }
+    .tag{
+        font-size: 20px;
+        position: relative;
+        right: 80px;
+        width: 550px;
+    }
+
+    .tel{
+        font-size: 12px !important;
+    }
+    .cell{
+        font-size: 12px !important;
+
+    }
+    .mail{
+        font-size: 12px !important;
+    }
+    .logo{
+        width: 50px;
+    }
+    .form{
+        margin-left: 50px;
+        width: 80%;
+    }
+    .last{
+        margin-top: 10px;
+    }
+    .images{
+        width: 400px;
+        height: 180px;
+    }
+    .heading{
+        font-size: 23px;
+    }
+    .card{
+        width: 19rem !important;
+        height: 25rem !important;
+    }
+    .first{
+        margin-left: 90px;
+    }
+    .second{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .third{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .four{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .five{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .dry{
+        font-size: 20px;
+    }
+    .power{
+        font-size: 20px;
+    }
+    .icons{
+        margin-left: 110px;
+    }
+    .txt{
+        text-align: center;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 767px) {
+    .label{
+        padding-left: 70px;
+    }
+    .form{
+        width: 60%;
+    }
+    .clean{
+        font-size: 32px;
+        position: relative;
+        right: 60px;
+        width: 700px;
+    }
+    .tag{
+        font-size: 22px;
+        position: relative;
+        right: 80px;
+        width: 550px;
+    }
+    .tel{
+        font-size: 14px !important;
+    }
+    .cell{
+        font-size: 14px !important;
+
+    }
+    .mail{
+        font-size: 14px !important;
+    }
+    .logo{
+        width: 70px;
+    }
+    .images{
+        width: 500px;
+        height: 230px;
+    }
+    .heading{
+        font-size: 23px;
+    }
+    .card{
+        width: 22rem !important;
+        height: 23rem !important;
+    }
+    .first{
+        margin-left: 90px;
+    }
+    .second{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .third{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .four{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .five{
+        margin-left: 90px;
+        margin-top: 10px;
+    }
+    .dry{
+        font-size: 22px;
+    }
+    .power{
+        font-size: 22px;
+    }
+    .icons{
+        margin-left: 150px;
+    }
+    .txt{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .label{
+        padding-left: 40px;
+    }
+    .form{
+       margin-left: 40px;
+        width: 80%;
+    }
+    .clean{
+        font-size: 28px;
+        position: relative;
+        right: 0px;
+        width: 400px;
+    }
+    .tag{
+        font-size: 20px;
+        position: relative;
+        right: 80px;
+        width: 500px;
+    }
+
+    .images{
+        width: 320px;
+        height: 170px;
+    }
+    .heading{
+        font-size: 20px;
+    }
+    .card{
+        width: 11rem !important;
+        height: 34rem !important;
+    }
+  .first{
+    margin-left: -120px;
+}
+    .second{
+        margin-left: -50px;
+    }
+    .third{
+        margin-left: 20px;
+
+    }
+    .four{
+        margin-left: 90px;
+
+    }
+    .five{
+        margin-left: 160px;
+
+    }
+    .icons{
+        margin-left: 220px;
+    }
+    .txt{
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .label{
+        padding-left: 60px;
+    }
+    .form{
+        margin-left: 100px;
+        width: 70%;
+    }
+    .clean{
+        font-size: 36px;
+        position: relative;
+        right: 100px;
+    }
+    .tag{
+        font-size: 23px;
+        position: relative;
+        right: 80px;
+        width: 700px;
+    }
+
+    .images{
+        width: 450px;
+        height: 220px;
+    }
+    .heading{
+        font-size: 22px;
+    }
+    .card{
+        width: 13rem !important;
+        height: 29rem !important;
+    }
+    .first{
+        margin-left: -110px;
+    }
+    .second{
+        margin-left: -50px;
+    }
+    .third{
+        margin-left: 10px;
+
+    }
+    .four{
+        margin-left: 70px;
+
+    }
+    .five{
+        margin-left: 130px;
+
+    }
+    
+    .txt{
+        text-align: center;
+    }
+}
